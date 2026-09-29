@@ -1,20 +1,26 @@
- Energía Hidroeléctrica vs. Clima — Paraguay
-
- Summary
-
-This project analyzes the relationship between hydroelectric power generation in Paraguay (Itaipú) and hydro-climatic variability, using 24 years of monthly data (2000–2023). After testing local rainfall and the El Niño/La Niña index (ONI) both weak predictors the strongest signal came from ENA (Energia Natural Afluente), a basin-wide inflow-energy indicator from Brazil's grid operator (ONS): a moderate correlation (r ≈ 0.36) that holds even after removing seasonality, peaking at a 1-month lag. The findings highlight that Itaipú's output depends on a large, regional watershed rather than localized or global climate signals and that generation itself is shaped by operational decisions as much as by water availability.
+# Energía Hidroeléctrica vs. Clima — Paraguay
 
 
- Objetivo
+
+## Summary
+
+This project analyzes the relationship between hydroelectric power generation in Paraguay (Itaipú) and hydro-climatic variability, using 24 years of monthly data (2000–2023). After testing local rainfall and the El Niño/La Niña index (ONI) both weak predictors the strongest signal came from ENA (Energia Natural Afluente), a basin-wide inflow-energy indicator from Brazil's grid operator (ONS): a moderate correlation (r ≈ 0.36) that holds even after removing seasonality, peaking at a 1-month lag. The findings highlight that Itaipú's output depends on a large, regional watershed rather than localized or global climate signals — and that generation itself is shaped by operational decisions as much as by water availability.
+
+---
+
+## 🇵🇾 Objetivo
 
 Analizar la relación entre la generación de energía hidroeléctrica en Paraguay (Itaipú, con datos de Yacyretá como referencia complementaria) y las variables climáticas e hidrológicas que la afectan, para identificar patrones, riesgos de sequía y tendencias a lo largo del tiempo.
 
-Pregunta central
+## Pregunta central
 
 ¿Cómo varía la generación hidroeléctrica en función de la disponibilidad hídrica (lluvia, caudal afluente) y de índices climáticos globales, y qué tan vulnerable es Paraguay a períodos de sequía en términos de producción energética?
 
+## Público objetivo del portafolio
 
-Fuentes de datos
+Empresas y organismos del sector energético paraguayo (ANDE, Itaipú, Yacyretá, consultoras del sector eléctrico) que buscan perfiles de análisis de datos / BI.
+
+## Fuentes de datos
 
 | Fuente | Variable | Período | Granularidad |
 
@@ -34,14 +40,24 @@ Fuentes de datos
 
 ## Hallazgos principales
 
-- La correlación entre generación de Itaipú y disponibilidad hídrica real (ENA) es moderada (r = 0.36), incluso después de remover el efecto estacional el predictor más fuerte de los tres evaluados.
-- La relación es ligeramente más fuerte con 1 mes de retraso, sugiriendo un breve tiempo de respuesta entre la hidrología de la cuenca y el impacto en generación.
-- La **lluvia puntual de una sola estación** (Encarnación, r ≈ 0.25) y el **índice ONI** (El Niño/La Niña, r ≈ 0.00–0.03) son predictores mucho más débiles — Itaipú depende de la hidrología de una cuenca extensa y regional (sur de Brasil), no de eventos climáticos localizados o globales aislados.
+- La correlación entre generación de Itaipú y disponibilidad hídrica real (**ENA**) es moderada (**r = 0.36**), incluso después de remover el efecto estacional  el predictor más fuerte de los tres evaluados.
+- La relación es ligeramente más fuerte con **1 mes de retraso**, sugiriendo un breve tiempo de respuesta entre la hidrología de la cuenca y el impacto en generación.
+- La **lluvia puntual de una sola estación** (Encarnación, r ≈ 0.25) y el **índice ONI** (El Niño/La Niña, r ≈ 0.00–0.03) son predictores mucho más débiles Itaipú depende de la hidrología de una cuenca extensa y regional (sur de Brasil), no de eventos climáticos localizados o globales aislados.
 - La **sequía de 2020–2022** fue el evento más severo del período analizado, con caída de generación de ~13.000 MW a menos de 7.000 MW.
-- La generación hidroeléctrica combina señal física (agua disponible) y señal operativa (contratos, demanda, mantenimiento) — lo que limita cuánto puede explicar el clima por sí solo.
+- La generación hidroeléctrica combina señal física (agua disponible) y señal operativa (contratos, demanda, mantenimiento) lo que limita cuánto puede explicar el clima por sí solo.
 
 ## Herramientas
 
 Python (pandas, matplotlib), Jupyter Notebook (vía VS Code), Git/GitHub.
 
 ## Estructura del repositorio
+
+## Próximos pasos
+
+- Ampliar el análisis de Yacyretá (actualmente solo con datos anuales)
+- Incorporar dashboard visual (Power BI)
+- Explorar variables adicionales (temperatura, nivel del río aguas arriba)
+
+## Autora
+
+Vanilsa Mazamba — [LinkedIn] http://www.linkedin.com/in/vanilza-mazamba-328a01250 · [GitHub](https://github.com/vanilza1918-art)
