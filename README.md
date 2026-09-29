@@ -22,18 +22,12 @@ Empresas y organismos del sector energético paraguayo (ANDE, Itaipú, Yacyretá
 
 ## Fuentes de datos
 
-| Fuente                     | Variable                       | Período   | Granularidad                 |
-
-| ONS Dados Abertos (Brasil) | Generación Itaipú              | 2000–2026 | Horaria → agregada a mensual |
-
-| ONS Dados Abertos (Brasil) | ENA (Energía Natural Afluente) | 2000–2023 | Diaria → agregada a mensual  |
-
-| CAMMESA (Argentina)        | Generación Yacyretá            | 2005–2025 | Anual                        |
-
-| DINAC / SIA Paraguay       | Precipitación (Encarnación)    | 1990–2023 | Mensual                      |
-
-| NOAA CPC                   | Índice ONI (El Niño/La Niña)   | 1990–2026 | Mensual                      |
-
+- **Generación Itaipú** — ONS Dados Abertos (Brasil) — 2000-2026 — horaria, agregada a mensual
+- **ENA (Energía Natural Afluente)** — ONS Dados Abertos (Brasil) — 2000-2023 — diaria, agregada a mensual
+- **Generación Yacyretá** — CAMMESA (Argentina) — 2005-2025 — anual
+- **Precipitación (Encarnación)** — DINAC / SIA Paraguay — 1990-2023 — mensual
+- **Índice ONI (El Niño/La Niña)** — NOAA CPC — 1990-2026 — mensual
+  
 ## Metodología
 
 1. **Recolección**: identificación y descarga de las 5 fuentes de datos públicas listadas arriba.
