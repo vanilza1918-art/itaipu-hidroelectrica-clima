@@ -24,8 +24,6 @@ Empresas y organismos del sector energético paraguayo (ANDE, Itaipú, Yacyretá
 
 || Fuente | Variable | Período | Granularidad |
 
-|---|---|---|---|
-
 | ONS Dados Abertos (Brasil) | Generación Itaipú | 2000–2026 | Horaria → agregada a mensual |
 
 | ONS Dados Abertos (Brasil) | ENA (Energía Natural Afluente) | 2000–2023 | Diaria → agregada a mensual |
